@@ -1,0 +1,147 @@
+body {
+	background-color: #fadcba;
+}
+
+#content {
+	background-color: #ffffff !important;
+	width: 75%;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #ffffff;
+}
+
+#content h2 {
+	/*hiders*/
+	color: #893c00;
+	font-size: 30px;
+}
+
+#content h1 {
+	text-transform: none;
+	color: #893c00;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 36px;
+}
+
+#content p {
+	color: #000000;
+	/*webpage font*/
+	font-size: 16px;
+}
+
+#content .img-left {
+	/*left img*/
+	outline: #893c00 solid 2px;
+	padding: 2px;
+	float: left;
+	margin: 0 20px 20px 10px;
+}
+
+#content .brief {
+	/*text's bloc*/
+	background-color: #fadcba;
+	padding: 20px;
+	width: 39%;
+	font-size: 20px;
+	float: left;
+	margin: 0 20px 20px 0px;
+}
+
+#content .img-right {
+	/*right img*/
+	outline: #893c00 solid 2px;
+	padding: 2px;
+	float: right;
+	margin: 0 20px 20px 10px;
+}
+
+#content a:link {
+	color: none;
+	font-size: 18px;
+}
+
+#content table caption {
+	text-align: right;
+}
+
+#content tbody tr th {
+	text-align: left;
+	font-weight: 300;
+	text-transform: uppercase;
+	background-color: #e0e0e0;
+	padding: 10px;
+}
+
+#content td {
+	border-bottom: 1px solid #e0e0e0;
+	background-color: #ffffff;
+	color: #000000;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+form .flex {
+	display: flex;
+	flex-direction: row;
+	margin: 0 -5px;
+}
+
+form .flex label {
+	width: 50%;
+	text-transform: uppercase;
+	color: none;
+	padding: 10px 5px 5px;
+}
+
+form .flex label input {
+	display: block;
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	outline: none;
+	border: 1px solid #e0e0e0;
+}
+
+form label {
+	width: 50%;
+	text-transform: uppercase;
+	color: none;
+	padding: 10px 0 0;
+}
+
+form label input {
+	display: block;
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	outline: none;
+	border: 1px solid #e0e0e0;
+	margin: 0 0 12px;
+}
+
+form label textarea {
+	display: block;
+	width: 100%;
+}
+
+form .btn-loc {
+	padding-top: 20px;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+form .btn-loc a {
+	border: 1px solid #3d70a1;
+	padding: 15px 40px;
+	color: #3d70a1;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .2s;
+	display: inline-block;
+}
+
+
+/*# sourceMappingURL=style1.css.map */

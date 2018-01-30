@@ -1,0 +1,147 @@
+body {
+	background-color: rgba(198, 238, 252, 0.53);
+}
+
+#content {
+	background-color: #3b3b3b !important;
+	width: 75%;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #ffffff;
+}
+
+#content h2 {
+	/*hiders*/
+	color: #fccd10;
+	font-size: 30px;
+}
+
+#content h1 {
+	text-transform: uppercase;
+	color: #fccd10;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 36px;
+}
+
+#content p {
+	color: #ffffff;
+	/*webpage font*/
+	font-size: 16px;
+}
+
+#content .img-left {
+	/*left img*/
+	outline: #fccd10 solid 2px;
+	padding: 2px;
+	float: left;
+	margin: 0 20px 20px 10px;
+}
+
+#content .brief {
+	/*text's bloc*/
+	background-color: #fff178;
+	padding: 20px;
+	width: 95%;
+	font-size: 16px;
+	float: left;
+	margin: 0 20px 20px 0px;
+}
+
+#content .img-right {
+	/*right img*/
+	outline: #fccd10 solid 2px;
+	padding: 2px;
+	float: right;
+	margin: 0 20px 20px 10px;
+}
+
+#content a:link {
+	color: #fccd10;
+	font-size: 18px;
+}
+
+#content table caption {
+	text-align: right;
+}
+
+#content table tbody tr th {
+	text-align: left;
+	font-weight: 300;
+	text-transform: uppercase;
+	background-color: #94a34e;
+	padding: 10px;
+}
+
+#content table tbody tr td {
+	border-bottom: 1px solid #94a34e;
+	background-color: #677d01;
+	color: #ffffff;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+#content form .flex {
+	display: flex;
+	flex-direction: row;
+	margin: 0 -5px;
+}
+
+#content form .flex label {
+	width: 50%;
+	text-transform: uppercase;
+	color: #fccd10;
+	padding: 10px 5px 5px;
+}
+
+#content form .flex label input {
+	display: block;
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	outline: none;
+	border: 1px solid #e0e0e0;
+}
+
+#content form label {
+	width: 50%;
+	text-transform: uppercase;
+	color: #fccd10;
+	padding: 10px 0 0;
+}
+
+#content form label input {
+	display: block;
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	outline: none;
+	border: 1px solid #e0e0e0;
+	margin: 0 0 12px;
+}
+
+#content form label textarea {
+	display: block;
+	width: 100%;
+}
+
+#content form .btn-loc {
+	padding-top: 20px;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+#content form .btn-loc a {
+	border: 1px solid #fccd10;
+	padding: 15px 40px;
+	color: #fccd10;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .2s;
+	display: inline-block;
+}
+
+
+/*# sourceMappingURL=style2.css.map */

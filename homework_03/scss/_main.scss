@@ -1,0 +1,128 @@
+@mixin all-padding-lr {
+    padding-left: 20px; padding-right: 20px;
+}
+@mixin outline {
+    outline: $PageStyle solid 2px;
+    padding: 2px;
+}
+@mixin input {
+            display: block;
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+            outline: none;
+            border: 1px solid $TableColor;
+}
+@mixin label {
+    width: 50%;	
+    text-transform: uppercase;
+    color: $InputColor;
+}
+
+body {
+    background-color: $BackgroundBodyColor;
+}
+#content {
+        background-color: $BackgroundColor !important;
+        width: 75%; 
+        margin: 0 auto;
+        @include all-padding-lr();
+    background-color: $ContentBackground;
+        h2 {                            /*hiders*/
+            color: $PageStyle;
+            font-size: 30px;
+        }
+        h1 {
+            text-transform: $CapsLock;
+            color: $PageStyle;
+            text-align: center;
+            padding-top: 10px;
+            font-size: 36px;
+        }
+        p { color: $TextColor;                                 /*webpage font*/
+            font-size: 16px; 
+        }
+        .img-left {                    /*left img*/
+            @include outline;
+            float: left;
+            margin: 0 20px 20px 10px;
+        }
+        .brief {                                    /*text's bloc*/
+            background-color: $BackgroundColor2;
+            padding: 20px;
+            width: $width;
+            font-size: $FontSize;
+            float: left;
+            margin: 0 20px 20px 0px;
+        }
+        .img-right {                       /*right img*/
+            @include outline;
+            float: right;
+            margin: 0 20px 20px 10px;
+        }
+        a:link{
+            color: $LinkColor;
+            font-size: 18px;
+        }
+        table caption{
+               text-align: right;
+            }
+            tbody tr th {                
+                        text-align: left;
+                        font-weight: 300;
+                        text-transform: uppercase;
+                        background-color: $TableColor1;
+                        padding: 10px;
+                    }
+                        td{
+                            border-bottom: 1px solid $TableColor1;
+                            background-color: $TableColor2;
+                            color: $TextColor;
+                            border-collapse: collapse;
+                            padding: 10px
+                        }
+                }
+            
+        form{
+		
+            .flex{
+                display: flex;
+                flex-direction: row;
+                margin: 0 -5px;
+                
+                label{
+                    @include label();
+                    padding: 10px 5px 5px;
+                    input{
+                        @include input();
+                    }
+                }
+            }
+            label{
+                @include label();
+                padding: 10px 0 0;    
+                input{
+                    @include input();
+                    margin: 0 0 12px;		
+                }
+                textarea{
+                    display: block;
+                    width: 100%;
+                }
+            }
+            .btn-loc{
+                padding-top: 20px;
+                text-align: left;
+                padding-bottom: 20px;
+            a{
+                border: 1px solid $Send;
+                padding: 15px 40px;
+                color: $Send;
+                text-align: center;
+                text-decoration: none;
+                text-transform: uppercase;
+                transition: .2s;
+                display: inline-block;
+            }
+        }
+    }
