@@ -1,2 +1,23 @@
-/* Your styles goes here */
+.italic {
+    font-style: italic;
+}
 
+.line:hover {
+    background-color: aliceblue;
+}
+
+.file {
+    color: gray;
+}
+
+.folder {
+    color: darkorange;
+}
+
+.children {
+    margin-left: 24px;
+}
+
+.hidden {
+    display: none;
+}
